@@ -8,9 +8,9 @@ public class PbSimple {
         do
             try {
                 PbSimple printArgs = new PbSimple();
-                printArgs.heyPrint("Executed: " + i + " Hostname: " + InetAddress.getLocalHost().getHostName() + " Time: " + LocalTime.now());
+                printArgs.heyPrint("Executed: " + i + " Hostname: " + InetAddress.getLocalHost() + " Time: " + LocalTime.now());
                 i++;
-                Thread.sleep(2000); //sleep 2s
+                Thread.sleep(1000); //sleep 2s
             } catch (Exception e) {
                 e.printStackTrace();
             }
