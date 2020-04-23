@@ -14,7 +14,7 @@ public class PbSimple {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        while (i < 150);
+        while (i < 50);
 
     }
 
