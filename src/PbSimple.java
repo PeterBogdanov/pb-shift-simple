@@ -11,7 +11,7 @@ public class PbSimple {
                 PbSimple printArgs = new PbSimple();
                 printArgs.heyPrint("Executed: " + i + " Hostname: " + InetAddress.getLocalHost() + " Time: " + LocalTime.now());
                 i++;
-                Thread.sleep(1000); //sleep 1s
+                Thread.sleep(500); //sleep 1s
             } catch (Exception e) {
                 e.printStackTrace();
             }
